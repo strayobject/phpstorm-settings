@@ -1,0 +1,9 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="File '[csv-average-row-value] - .../web/index.php'" />
+    <option name="defaultScopeName" value="File '[csv-average-row-value] - .../web/index.php'" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="File '[csv-average-row-value] - .../web/index.php'" />
+  </component>
+</application>
