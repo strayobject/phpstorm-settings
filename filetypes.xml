@@ -1,12 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="LICENCE" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="composer/Dockerfile" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
-      <mapping ext="gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="xt" type="PLAIN_TEXT" />
+      <mapping pattern="sss" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
