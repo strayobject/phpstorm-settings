@@ -1,9 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="apache/Dockerfile" type="Dockerfile" />
       <mapping pattern="web/apache/Dockerfile" type="Dockerfile" />
+      <mapping pattern="apache/Dockerfile" type="Dockerfile" />
       <mapping pattern="sss" type="PLAIN_TEXT" />
+      <mapping ext="volt" type="Twig" />
     </extensionMap>
   </component>
 </application>
