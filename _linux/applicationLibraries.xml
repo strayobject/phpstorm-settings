@@ -1,0 +1,15 @@
+<application>
+  <component name="libraryTable">
+    <library name="ols7ram" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_use.typekit.net_ols7ram.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_use.typekit.net_ols7ram.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
