@@ -11,13 +11,13 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://php:7.1-cli/php" id="cee826c8-1013-4d83-bea6-400146a963c7" name="Remote PHP 7.1 bare" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="php:7.1-cli" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker://php:cli-7.1/php" id="cee826c8-1013-4d83-bea6-400146a963c7" name="Remote PHP 7.1 bare" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="php:cli-7.1" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="docker://shplatform_php-fpm:latest/php" id="fad19e0a-d9bc-4de7-9ba7-6241cae8f1eb" name="SH Remote PHP Xdebug" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="shplatform_php-fpm:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker://shapi_php-fpm:latest/php" id="fad19e0a-d9bc-4de7-9ba7-6241cae8f1eb" name="SH Remote PHP Xdebug" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="shapi_php-fpm:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="docker://tourbook_php-fpm:latest/php" id="83253e98-7858-46c6-b01d-70dc714e0193" name="Tourbook PHP 7.0" debugger_id="php.debugger.XDebug">
+      <interpreter home="docker://tourbook_php-fpm:latest/php" id="32f94a38-b997-4964-90ab-d5da22eb6ce8" name="Tourbook PHP" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="tourbook_php-fpm:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
@@ -318,8 +318,8 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="Tourbook PHP 7.0">
-        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.0.16">
+      <interpreter name="Tourbook PHP">
+        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.0.6">
           <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-gd.ini, /usr/local/etc/php/conf.d/docker-php-ext-intl.ini, /usr/local/etc/php/conf.d/docker-php-ext-pdo_mysql.ini, /usr/local/etc/php/conf.d/docker-php-ext-phalcon.ini, /usr/local/etc/php/conf.d/docker-php-ext-sockets.ini, /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini, /usr/local/etc/php/conf.d/docker-php-ext-zip.ini, /usr/local/etc/php/conf.d/error.ini, /usr/local/etc/php/conf.d/misc.ini, /usr/local/etc/php/conf.d/opcache.ini, /usr/local/etc/php/conf.d/timezone.ini, /usr/local/etc/php/conf.d/xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/php.ini</configuration_file>
           <configuration_options>
@@ -593,7 +593,6 @@
             <extension name="dom" />
             <extension name="fileinfo" />
             <extension name="filter" />
-            <extension name="ftp" />
             <extension name="gd" />
             <extension name="hash" />
             <extension name="iconv" />

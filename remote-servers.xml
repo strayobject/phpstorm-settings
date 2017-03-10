@@ -2,7 +2,17 @@
   <component name="RemoteServers">
     <remote-server name="Local Docker" type="docker">
       <configuration>
-        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="apiUrl" value="unix://var/tmp/docker.sock" />
+      </configuration>
+    </remote-server>
+    <remote-server name="Local Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix://var/tmp/docker.sock" />
+      </configuration>
+    </remote-server>
+    <remote-server name="Local Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix://var/tmp/docker.sock" />
       </configuration>
     </remote-server>
   </component>
