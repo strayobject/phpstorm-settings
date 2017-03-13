@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
       <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
