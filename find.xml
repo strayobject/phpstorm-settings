@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[csv-average-row-value] - .../web/index.php'" />
-    <option name="defaultScopeName" value="File '[csv-average-row-value] - .../web/index.php'" />
-    <option name="SEARCH_SCOPE" value="File '[csv-average-row-value] - .../web/index.php'" />
+    <option name="customScope" value="Project 'tourbook'" />
+    <option name="defaultScopeName" value="Project 'tourbook'" />
+    <option name="SEARCH_SCOPE" value="Project 'tourbook'" />
   </component>
 </application>
