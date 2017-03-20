@@ -1,7 +1,21 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[csv-average-row-value] - .../web/index.php'" />
-    <option name="defaultScopeName" value="File '[csv-average-row-value] - .../web/index.php'" />
-    <option name="SEARCH_SCOPE" value="File '[csv-average-row-value] - .../web/index.php'" />
+    <option name="customScope" value="Project 'tourbook'" />
+    <option name="defaultScopeName" value="Project 'tourbook'" />
+    <option name="SEARCH_SCOPE" value="Project 'tourbook'" />
+    <option name="FILE_MASK" value="*.volt" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.php</mask>
+      <mask>*.volt</mask>
+    </recentFileMasks>
   </component>
 </application>
