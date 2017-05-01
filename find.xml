@@ -11,12 +11,16 @@
       <mask>*.jsp</mask>
       <mask>*.xml</mask>
       <mask>*.java</mask>
-      <mask>*.js</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.php</mask>
       <mask>*.volt</mask>
+      <mask>*.vol</mask>
+      <mask>*.vo</mask>
+      <mask>*.v</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
