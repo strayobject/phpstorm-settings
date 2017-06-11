@@ -12,6 +12,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="xt" type="PLAIN_TEXT" />
+      <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="volt" type="Twig" />
     </extensionMap>
   </component>
