@@ -1,10 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[apigateway-symfony] - .../sfapp/src/Proofer/Entity/ContentBundle/Entity/Comment.php'" />
-    <option name="defaultScopeName" value="File '[apigateway-symfony] - .../sfapp/src/Proofer/Entity/ContentBundle/Entity/Comment.php'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '[apigateway-symfony] - .../sfapp/src/Proofer/Entity/ContentBundle/Entity/Comment.php'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.conf" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -22,8 +23,13 @@
       <mask>*.j</mask>
       <mask>*.php</mask>
       <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.yml</mask>
+      <mask>*.ym</mask>
+      <mask>*.y</mask>
+      <mask>*.</mask>
+      <mask>*.c</mask>
+      <mask>*.con</mask>
+      <mask>*.conf</mask>
     </recentFileMasks>
   </component>
 </application>
