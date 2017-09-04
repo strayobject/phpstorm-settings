@@ -5,10 +5,10 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.volt" />
     <recentFileMasks>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.j</mask>
       <mask>*.php</mask>
       <mask>*.yml</mask>
       <mask>*.ym</mask>
@@ -30,12 +30,13 @@
       <mask>*Repository.p</mask>
       <mask>*Repository.php</mask>
       <mask>*</mask>
+      <mask>*.vol</mask>
+      <mask>*.js</mask>
+      <mask>*.j</mask>
       <mask>*.</mask>
       <mask>*.v</mask>
       <mask>*.vo</mask>
-      <mask>*.vol</mask>
       <mask>*.volt</mask>
-      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
