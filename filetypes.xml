@@ -5,6 +5,7 @@
       <mapping pattern="Dockerfile*" type="Dockerfile" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
       <mapping pattern="Dockerfile-sa" type="Dockerfile" />
+      <mapping ext="thumb" type="Images" />
       <mapping ext="cnf" type="Ini" />
       <mapping ext="config" type="JSON" />
       <mapping pattern="composer/Dockerfile" type="PLAIN_TEXT" />
