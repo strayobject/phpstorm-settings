@@ -3,9 +3,8 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.volt" />
     <recentFileMasks>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
       <mask>*.j</mask>
       <mask>*.yml</mask>
       <mask>*.ym</mask>
@@ -27,13 +26,15 @@
       <mask>*Repository.p</mask>
       <mask>*Repository.php</mask>
       <mask>*</mask>
+      <mask>*.js</mask>
+      <mask>*.php</mask>
+      <mask>*.ph</mask>
+      <mask>*.p</mask>
       <mask>*.</mask>
       <mask>*.v</mask>
       <mask>*.vo</mask>
       <mask>*.vol</mask>
       <mask>*.volt</mask>
-      <mask>*.js</mask>
-      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
