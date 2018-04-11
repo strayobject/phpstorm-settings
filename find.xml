@@ -2,9 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.j</mask>
       <mask>*.yml</mask>
@@ -28,7 +27,6 @@
       <mask>*Repository.php</mask>
       <mask>*</mask>
       <mask>*.js</mask>
-      <mask>*.php</mask>
       <mask>*.ph</mask>
       <mask>*.p</mask>
       <mask>*.</mask>
@@ -36,6 +34,7 @@
       <mask>*.vo</mask>
       <mask>*.vol</mask>
       <mask>*.volt</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
