@@ -2,7 +2,7 @@
   <component name="MessDetector">
     <phpmd_settings_migrated />
     <phpmd_settings>
-      <MessDetectorConfiguration max_messages_per_file="100" timeout="15000" tool_path="$USER_HOME$/.composer/vendor/bin/phpmd" />
+      <MessDetectorConfiguration max_messages_per_file="100" tool_path="$USER_HOME$/.composer/vendor/bin/phpmd" timeout="15000" />
     </phpmd_settings>
   </component>
   <component name="PhpAutoImport" auto_import_file_scope="true" global_class_behavior="PREFER_IMPORT" global_constant_behavior="PREFER_FQN" global_function_behavior="PREFER_FQN" />
@@ -20,8 +20,8 @@
       <interpreter home="docker://shapi_php-fpm:latest/php" id="fad19e0a-d9bc-4de7-9ba7-6241cae8f1eb" name="SH Remote PHP Xdebug" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="shapi_php-fpm:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="docker://tourbook_php-fpm:latest/php" id="32f94a38-b997-4964-90ab-d5da22eb6ce8" name="Tourbook PHP" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="tourbook_php-fpm:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker://strayobject/php-fpm:7.2.3-phalcon-1.0.0-dev/php" id="32f94a38-b997-4964-90ab-d5da22eb6ce8" name="Tourbook PHP" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Local Docker" DOCKER_IMAGE_NAME="strayobject/php-fpm:7.2.3-phalcon-1.0.0-dev" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="docker://yocoplatform_php-fpm:latest/php" id="a3889c77-db92-432f-a18f-54a8de4cfd1f" name="Yoco PHP 7.1" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Yoco" DOCKER_IMAGE_NAME="yocoplatform_php-fpm:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
@@ -633,7 +633,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="Tourbook PHP">
-        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.6">
+        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.2.3">
           <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-gd.ini, /usr/local/etc/php/conf.d/docker-php-ext-intl.ini, /usr/local/etc/php/conf.d/docker-php-ext-pdo_mysql.ini, /usr/local/etc/php/conf.d/docker-php-ext-phalcon.ini, /usr/local/etc/php/conf.d/docker-php-ext-redis.ini, /usr/local/etc/php/conf.d/docker-php-ext-sockets.ini, /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini, /usr/local/etc/php/conf.d/docker-php-ext-yaml.ini, /usr/local/etc/php/conf.d/docker-php-ext-zip.ini, /usr/local/etc/php/conf.d/error.ini, /usr/local/etc/php/conf.d/misc.ini, /usr/local/etc/php/conf.d/opcache.ini, /usr/local/etc/php/conf.d/timezone.ini, /usr/local/etc/php/conf.d/xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/php.ini</configuration_file>
           <configuration_options>
@@ -674,11 +674,11 @@
             <configuration_option name="enable_dl" value="" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
-            <configuration_option name="error_log" value="php_errors.log" />
+            <configuration_option name="error_log" value="" />
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="32767" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/lib/php/extensions/no-debug-non-zts-20160303" />
+            <configuration_option name="extension_dir" value="/usr/local/lib/php/extensions/no-debug-non-zts-20170718" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -724,7 +724,7 @@
             <configuration_option name="mbstring.language" value="neutral" />
             <configuration_option name="mbstring.strict_detection" value="0" />
             <configuration_option name="mbstring.substitute_character" value="" />
-            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="memory_limit" value="384M" />
             <configuration_option name="mysqlnd.collect_memory_statistics" value="" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
@@ -733,7 +733,7 @@
             <configuration_option name="mysqlnd.mempool_default_size" value="16000" />
             <configuration_option name="mysqlnd.net_cmd_buffer_size" value="4096" />
             <configuration_option name="mysqlnd.net_read_buffer_size" value="32768" />
-            <configuration_option name="mysqlnd.net_read_timeout" value="31536000" />
+            <configuration_option name="mysqlnd.net_read_timeout" value="86400" />
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="open_basedir" value="" />
@@ -750,6 +750,7 @@
             <configuration_option name="phalcon.db.force_casting" value="0" />
             <configuration_option name="phalcon.orm.cast_on_hydrate" value="0" />
             <configuration_option name="phalcon.orm.column_renaming" value="1" />
+            <configuration_option name="phalcon.orm.disable_assign_setters" value="0" />
             <configuration_option name="phalcon.orm.enable_implicit_joins" value="1" />
             <configuration_option name="phalcon.orm.enable_literals" value="1" />
             <configuration_option name="phalcon.orm.events" value="1" />
@@ -757,20 +758,28 @@
             <configuration_option name="phalcon.orm.ignore_unknown_columns" value="0" />
             <configuration_option name="phalcon.orm.late_state_binding" value="0" />
             <configuration_option name="phalcon.orm.not_null_validations" value="1" />
+            <configuration_option name="phalcon.orm.update_snapshot_on_save" value="1" />
             <configuration_option name="phalcon.orm.virtual_foreign_keys" value="1" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
-            <configuration_option name="post_max_size" value="8M" />
+            <configuration_option name="post_max_size" value="200M" />
             <configuration_option name="precision" value="14" />
             <configuration_option name="realpath_cache_size" value="4096k" />
             <configuration_option name="realpath_cache_ttl" value="7200" />
             <configuration_option name="redis.arrays.autorehash" value="" />
+            <configuration_option name="redis.arrays.connecttimeout" value="" />
+            <configuration_option name="redis.arrays.distributor" value="" />
             <configuration_option name="redis.arrays.functions" value="" />
             <configuration_option name="redis.arrays.hosts" value="" />
             <configuration_option name="redis.arrays.index" value="" />
+            <configuration_option name="redis.arrays.lazyconnect" value="" />
             <configuration_option name="redis.arrays.names" value="" />
+            <configuration_option name="redis.arrays.pconnect" value="" />
             <configuration_option name="redis.arrays.previous" value="" />
+            <configuration_option name="redis.arrays.readtimeout" value="" />
+            <configuration_option name="redis.arrays.retryinterval" value="" />
+            <configuration_option name="redis.clusters.persistent" value="" />
             <configuration_option name="redis.clusters.read_timeout" value="" />
             <configuration_option name="redis.clusters.seeds" value="" />
             <configuration_option name="redis.clusters.timeout" value="" />
@@ -788,7 +797,7 @@
             <configuration_option name="session.cookie_httponly" value="" />
             <configuration_option name="session.cookie_lifetime" value="0" />
             <configuration_option name="session.cookie_path" value="/" />
-            <configuration_option name="session.cookie_secure" value="" />
+            <configuration_option name="session.cookie_secure" value="0" />
             <configuration_option name="session.gc_divisor" value="1000" />
             <configuration_option name="session.gc_maxlifetime" value="1440" />
             <configuration_option name="session.gc_probability" value="1" />
@@ -814,12 +823,11 @@
             <configuration_option name="session.use_trans_sid" value="0" />
             <configuration_option name="short_open_tag" value="" />
             <configuration_option name="smtp_port" value="25" />
-            <configuration_option name="sql.safe_mode" value="0" />
             <configuration_option name="sqlite3.extension_dir" value="" />
             <configuration_option name="sys_temp_dir" value="" />
             <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
-            <configuration_option name="upload_max_filesize" value="2M" />
+            <configuration_option name="upload_max_filesize" value="200M" />
             <configuration_option name="upload_tmp_dir" value="" />
             <configuration_option name="url_rewriter.hosts" value="" />
             <configuration_option name="url_rewriter.tags" value="form=" />
@@ -827,7 +835,7 @@
             <configuration_option name="user_dir" value="" />
             <configuration_option name="user_ini.cache_ttl" value="300" />
             <configuration_option name="user_ini.filename" value=".user.ini" />
-            <configuration_option name="variables_order" value="GPCS" />
+            <configuration_option name="variables_order" value="EGPCS" />
             <configuration_option name="xdebug.auto_trace" value="0" />
             <configuration_option name="xdebug.cli_color" value="0" />
             <configuration_option name="xdebug.collect_assignments" value="0" />
@@ -850,10 +858,14 @@
             <configuration_option name="xdebug.dump_undefined" value="0" />
             <configuration_option name="xdebug.extended_info" value="1" />
             <configuration_option name="xdebug.file_link_format" value="" />
+            <configuration_option name="xdebug.filename_format" value="" />
             <configuration_option name="xdebug.force_display_errors" value="0" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
+            <configuration_option name="xdebug.gc_stats_enable" value="0" />
+            <configuration_option name="xdebug.gc_stats_output_dir" value="/tmp" />
+            <configuration_option name="xdebug.gc_stats_output_name" value="gcstats.%p" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="docker" />
+            <configuration_option name="xdebug.idekey" value="" />
             <configuration_option name="xdebug.max_nesting_level" value="256" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
@@ -874,6 +886,7 @@
             <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="" />
+            <configuration_option name="xdebug.remote_timeout" value="200" />
             <configuration_option name="xdebug.scream" value="0" />
             <configuration_option name="xdebug.show_error_trace" value="0" />
             <configuration_option name="xdebug.show_exception_trace" value="0" />
@@ -907,7 +920,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.0">
+            <debugger_info debugger="xdebug" debugger_version="2.6.0">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -943,6 +956,7 @@
             <extension name="redis" />
             <extension name="session" />
             <extension name="sockets" />
+            <extension name="sodium" />
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="tokenizer" />
