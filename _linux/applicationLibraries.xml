@@ -1,5 +1,18 @@
 <application>
   <component name="libraryTable">
+    <library name="Elixir 1.6.4">
+      <CLASSES>
+        <root url="file:///usr/local/lib/elixir/lib/iex/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/ex_unit/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/mix/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/elixir/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/eex/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/logger/ebin" />
+        <root url="file:///usr/lib/erlang/lib/odbc-2.12.1/ebin" />
+        <root url="file:///usr/lib/erlang/lib/megaco-3.18.3/ebin" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="jquery-ui" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
