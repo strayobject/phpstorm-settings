@@ -13,6 +13,28 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="Elixir 1.7.3">
+      <CLASSES>
+        <root url="file:///usr/local/lib/elixir/lib/iex/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/ex_unit/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/mix/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/elixir/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/eex/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/logger/ebin" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="Elixir 1.7.3">
+      <CLASSES>
+        <root url="file:///usr/local/lib/elixir/lib/iex/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/ex_unit/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/mix/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/elixir/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/eex/ebin" />
+        <root url="file:///usr/local/lib/elixir/lib/logger/ebin" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="jquery-ui" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
