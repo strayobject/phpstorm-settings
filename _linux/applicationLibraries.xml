@@ -1,26 +1,26 @@
 <application>
   <component name="libraryTable">
-    <library name="Elixir 1.6.4">
+    <library name="Elixir 1.6.5">
       <CLASSES>
-        <root url="file:///usr/local/lib/elixir/lib/iex/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/ex_unit/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/mix/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/elixir/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/eex/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/logger/ebin" />
-        <root url="file:///usr/lib/erlang/lib/odbc-2.12.1/ebin" />
-        <root url="file:///usr/lib/erlang/lib/megaco-3.18.3/ebin" />
+        <root url="file:///usr/lib/elixir/lib/elixir/ebin" />
+        <root url="file:///usr/lib/elixir/lib/logger/ebin" />
+        <root url="file:///usr/lib/elixir/lib/mix/ebin" />
+        <root url="file:///usr/lib/elixir/lib/iex/ebin" />
+        <root url="file:///usr/lib/elixir/lib/eex/ebin" />
+        <root url="file:///usr/lib/elixir/lib/ex_unit/ebin" />
+        <root url="file:///usr/lib/erlang/lib/hipe-3.17.1/ebin" />
       </CLASSES>
       <SOURCES />
     </library>
-    <library name="Elixir 1.7.3">
+    <library name="Elixir 1.6.5">
       <CLASSES>
-        <root url="file:///usr/local/lib/elixir/lib/iex/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/ex_unit/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/mix/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/elixir/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/eex/ebin" />
-        <root url="file:///usr/local/lib/elixir/lib/logger/ebin" />
+        <root url="file:///usr/lib/elixir/lib/elixir/ebin" />
+        <root url="file:///usr/lib/elixir/lib/logger/ebin" />
+        <root url="file:///usr/lib/elixir/lib/mix/ebin" />
+        <root url="file:///usr/lib/elixir/lib/iex/ebin" />
+        <root url="file:///usr/lib/elixir/lib/eex/ebin" />
+        <root url="file:///usr/lib/elixir/lib/ex_unit/ebin" />
+        <root url="file:///usr/lib/erlang/lib/hipe-3.17.1/ebin" />
       </CLASSES>
       <SOURCES />
     </library>
