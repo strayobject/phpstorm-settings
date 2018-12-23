@@ -8,5 +8,6 @@
     <entry key="editor.skip.copy.and.cut.for.empty.selection" value="true" />
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
+    <entry key="tabs.alphabetical" value="true" />
   </component>
 </application>
