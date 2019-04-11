@@ -16,6 +16,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="build-example" type="PLAIN_TEXT" />
       <mapping ext="backup" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="keys" type="PLAIN_TEXT" />
       <mapping ext="xt" type="PLAIN_TEXT" />
