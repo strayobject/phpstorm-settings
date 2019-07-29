@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env.dist" type="Bash" />
+      <mapping pattern="langcompile" type="Bash" />
       <mapping pattern="Dockerfile*" type="Dockerfile" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
       <mapping pattern="Dockerfile-sa" type="Dockerfile" />
