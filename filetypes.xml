@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern="Dockerfile*" type="Dockerfile" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
       <mapping pattern="Dockerfile-sa" type="Dockerfile" />
@@ -19,8 +20,8 @@
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="keys" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <mapping ext="db" type="SQL" />
       <mapping ext="volt" type="Twig" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
@@ -31,7 +32,6 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <mapping ext="thumb" type="Images" />
-      <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
