@@ -2,10 +2,10 @@
   <component name="LogHighlightingSettings">
     <Patterns>
       <list>
-        <LogHighlightingPattern pattern="^(PHP)?\s*e(rror)?$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
-        <LogHighlightingPattern pattern="^(PHP)?\s*w(arning)?$" action="HIGHLIGHT_LINE" fg="-22016" bold="true" />
-        <LogHighlightingPattern pattern="^(PHP)?\s*notice:?$" action="HIGHLIGHT_LINE" fg="-10640129" />
-        <LogHighlightingPattern pattern="^(PHP)?\s*i(nfo)?$" action="HIGHLIGHT_LINE" fg="-15859962" />
+        <LogHighlightingPattern pattern="^(PHP)?\s*error:?" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
+        <LogHighlightingPattern pattern="^(PHP)?\s*warning:?" action="HIGHLIGHT_LINE" fg="-22016" bold="true" />
+        <LogHighlightingPattern pattern="^(PHP)?\s*notice:?" action="HIGHLIGHT_LINE" fg="-10640129" />
+        <LogHighlightingPattern pattern="^(PHP)?\s*info:?" action="HIGHLIGHT_LINE" fg="-15859962" />
         <LogHighlightingPattern pattern="^(PHP\s{2,3}\d{1,3}\.)|(PHP Stack trace:)" action="HIGHLIGHT_LINE" fg="-15925249" />
         <LogHighlightingPattern pattern="^(Peake\\)" action="HIGHLIGHT_LINE" fg="-54126" />
       </list>
