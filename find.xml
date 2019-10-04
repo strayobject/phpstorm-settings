@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.po" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -15,8 +15,8 @@
     <mask>*.ctp</mask>
     <mask>*.volt</mask>
     <mask>*.json</mask>
-    <mask>*.po</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.po</mask>
   </component>
 </application>
