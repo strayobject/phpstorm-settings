@@ -14,6 +14,7 @@
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="build-example" type="PLAIN_TEXT" />
+      <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="keys" type="PLAIN_TEXT" />
