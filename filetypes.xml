@@ -2,26 +2,23 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile*" type="Dockerfile" />
-      <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping ext="cnf" type="Ini" />
       <mapping ext="config" type="JSON" />
       <mapping pattern="console" type="PHP" />
-      <mapping pattern="sss" type="PLAIN_TEXT" />
-      <mapping pattern="composer/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="LICENCE" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="build-example" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="composer/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="sss" type="PLAIN_TEXT" />
+      <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping ext="neon" type="PLAIN_TEXT" />
-      <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="keys" type="PLAIN_TEXT" />
+      <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <mapping ext="db" type="SQL" />
       <mapping ext="volt" type="Twig" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />

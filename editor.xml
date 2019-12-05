@@ -1,4 +1,10 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="Project Default">
+    <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
+  </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="15" />
   </component>
