@@ -2,7 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="start" type="AUTO_DETECTED" />
-      <removed_mapping ext="tsv" type="CSV/TSV" />
+      <mapping ext="tsv" type="CSV/TSV" />
       <mapping pattern="Dockerfile*" type="Dockerfile" />
       <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
@@ -23,7 +23,7 @@
       <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="keys" type="PLAIN_TEXT" />
       <mapping ext="db" type="SQL" />
-      <mapping ext="tsv" type="TSV" />
+      <removed_mapping ext="tsv" type="TSV" />
       <mapping ext="volt" type="Twig" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
