@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…/protected/views/nav/_providerNav.php'" />
-    <option name="defaultScopeName" value="File '…/protected/views/nav/_providerNav.php'" />
-    <option name="SEARCH_SCOPE" value="File '…/protected/views/nav/_providerNav.php'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
