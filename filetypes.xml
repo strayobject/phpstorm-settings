@@ -1,20 +1,17 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="csv" type="CSV" />
-      <removed_mapping ext="tsv" type="CSV/TSV" />
-      <removed_mapping ext="csv" type="CSV/TSV" />
       <mapping pattern="Dockerfile*" type="Dockerfile" />
-      <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
+      <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping ext="cnf" type="Ini" />
       <mapping ext="config" type="JSON" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
-      <mapping pattern="composer/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="build-example" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="sss" type="PLAIN_TEXT" />
+      <mapping pattern="build-example" type="PLAIN_TEXT" />
+      <mapping pattern="composer/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
@@ -24,16 +21,17 @@
       <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="keys" type="PLAIN_TEXT" />
       <mapping ext="db" type="SQL" />
-      <mapping ext="tsv" type="TSV" />
       <mapping ext="volt" type="Twig" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="py" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <mapping ext="thumb" type="Images" />
       <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern=".gitignore_global" type="Git file" />
