@@ -1,5 +1,19 @@
 <application>
   <component name="StringManipulationState">
+    <option name="sortSettings">
+      <SortSettings>
+        <option name="preserveLeadingSpaces" value="false" />
+      </SortSettings>
+    </option>
+    <option name="sortSettingsMap">
+      <map>
+        <entry key="SortAction">
+          <value>
+            <SortSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="version" value="2" />
   </component>
 </application>

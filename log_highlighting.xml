@@ -1,23 +1,13 @@
 <application>
   <component name="LogHighlightingSettings">
-    <Patterns>
-      <list>
-        <LogHighlightingPattern pattern="^(PHP)?\s*([a-z]*\ ?error):?" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
-        <LogHighlightingPattern pattern="^(PHP)?\s*warning:?" action="HIGHLIGHT_LINE" fg="-22016" bold="true" />
-        <LogHighlightingPattern pattern="^(PHP)?\s*notice:?" action="HIGHLIGHT_LINE" fg="-10640129" />
-        <LogHighlightingPattern pattern="^(PHP)?\s*info:?" action="HIGHLIGHT_LINE" fg="-15859962" />
-        <LogHighlightingPattern pattern="^(PHP\s{2,3}\d{1,3}\.)|(PHP Stack trace:)" action="HIGHLIGHT_LINE" fg="-15925249" />
-        <LogHighlightingPattern pattern="^(Peake\\)" action="HIGHLIGHT_LINE" fg="-54126" />
-      </list>
-    </Patterns>
-    <parsing>
-      <list>
-        <LogParsingPattern enabled="false" name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" />
-        <LogParsingPattern enabled="false" name="IntelliJ IDEA" pattern="^([^\[]+)(\[[\s\d]+])\s*(\w*)\s*-\s*(\S*)\s*-(.+)$" timePattern="yyyy-MM-dd HH:mm:ss,SSS" linePattern="^\d" timeId="0" severityId="2" categoryId="3" />
-        <LogParsingPattern enabled="false" name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" />
-        <LogParsingPattern name="Peake WP" pattern="^\[(.*?)\] (PHP? .*:)?(.*)" timePattern="dd-MM-yyyy HH:mm:ss SSS" linePattern="^\[" timeId="0" severityId="1" categoryId="2" fullmatch="true" />
-      </list>
-    </parsing>
+    <highlightingPatterns>
+      <LogHighlightingPattern pattern="\ 499" action="HIGHLIGHT_LINE" fg="-51712" bold="true" stripe="true" />
+      <LogHighlightingPattern pattern="\ 200" action="HIGHLIGHT_LINE" fg="-11665585" />
+      <LogHighlightingPattern pattern="bot" action="HIGHLIGHT_LINE" fg="-16577754" bg="-17633" stripe="true" />
+    </highlightingPatterns>
+    <parsingPatterns>
+      <LogParsingPattern name="nginx-access" pattern="^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) - - \[(\d{2}\/[A-Za-z]{3}\/\d{4}:\d{2}:\d{2}:\d{2} (\+|\-)\d{4})\] ((\&quot;(GET|POST) )(.+)(HTTP\/1\.1\&quot;|HTTP\/2\.0\&quot;)) (\d{3}) (\d+) ([\&quot;]((\-)|(.+))[\&quot;]) ([\&quot;](.+)[\&quot;])" timePattern="dd/MMM/yyyy:HH:mm:ss Z" linePattern="^\d" timeId="1" severityId="8" categoryId="5" fullmatch="true" />
+    </parsingPatterns>
     <settingsVersion>4</settingsVersion>
     <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
   </component>
