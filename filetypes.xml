@@ -8,6 +8,7 @@
       <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping ext="cnf" type="Ini" />
       <mapping ext="config" type="JSON" />
+      <mapping pattern=".gitmessage" type="Markdown" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern="sss" type="PLAIN_TEXT" />
