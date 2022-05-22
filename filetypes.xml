@@ -1,12 +1,14 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="yii" type="AUTO_DETECTED" />
       <mapping pattern="start" type="AUTO_DETECTED" />
       <mapping pattern="Dockerfile*" type="Dockerfile" />
       <mapping pattern="apache/Dockerfile" type="Dockerfile" />
       <mapping pattern="Dockerfile-sa" type="Dockerfile" />
       <mapping ext="cnf" type="Ini" />
       <mapping ext="config" type="JSON" />
+      <mapping pattern=".gitmessage" type="Markdown" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern="sss" type="PLAIN_TEXT" />
@@ -30,7 +32,6 @@
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="py" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
