@@ -13,6 +13,7 @@
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern="sss" type="PLAIN_TEXT" />
       <mapping pattern="build-example" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="composer/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="neon" type="PLAIN_TEXT" />
